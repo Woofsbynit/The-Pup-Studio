@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pup Studio | Dog Photography by Nitika</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfaf6;
+      color: #333;
+    }
+    header {
+      background-color: #ffe8d6;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #ffcb77;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://source.unsplash.com/1600x600/?dog,photography');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 2rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #ffc07f;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pup Studio</h1>
+    <p>Dog Photography by Nitika</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Capturing Joy, One Wag at a Time
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Nitika! At Pup Studio, I capture the joyful spirit and unique personality of every dog through heartfelt photography. Whether playful zoomies or calm cuddles, I make sure every moment is treasured forever.</p>
+  </section>
+
+  <section class="section" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/300x300/?dog" alt="Dog 1" />
+      <img src="https://source.unsplash.com/301x300/?puppy" alt="Dog 2" />
+      <img src="https://source.unsplash.com/302x300/?dog,park" alt="Dog 3" />
+      <img src="https://source.unsplash.com/303x300/?dog,portrait" alt="Dog 4" />
+      <img src="https://source.unsplash.com/304x300/?pet,dog" alt="Dog 5" />
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Services</h2>
+    <ul>
+      <li><strong>Mini Session:</strong> 30 mins, 5 edited photos – $75</li>
+      <li><strong>Full Session:</strong> 1 hour, 15 edited photos – $150</li>
+      <li><strong>Puppy’s First Year:</strong> 4 seasonal shoots – $400</li>
+    </ul>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:nitika@example.com">nitika@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/pupstudio" target="_blank">@pupstudio</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Pup Studio by Nitika. All rights reserved.
+  </footer>
+</body>
+</html>
